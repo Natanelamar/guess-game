@@ -25,7 +25,7 @@ def main():
             except ValueError:
                 print("Invalid input. Please enter a valid number.")
                 
-    guessed_letters = []
+   
     players, players_score = initialize_players(args.num_players)
    
 
@@ -48,7 +48,7 @@ def main():
         # Pick a random word
         target_word = random.choice(words_bank)
         words_bank.remove(target_word)
-        
+        guessed_letters = []
         # Convert the word into "_"
         guess_lst = ["_" for _ in target_word]
         print("Word to guess: " + " ".join(guess_lst))
