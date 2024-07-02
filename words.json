@@ -1,0 +1,5 @@
+{
+    "fruits": ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", "lemon"],
+    "animals": ["lion", "tiger", "elephant", "giraffe", "zebra", "kangaroo", "panda", "leopard", "hippopotamus", "rhinoceros"],
+    "countries": ["canada", "brazil", "china", "india", "germany", "france", "japan", "australia", "nigeria", "mexico"]
+}
